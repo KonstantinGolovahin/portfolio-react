@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "title": "Game Dealer",
+      "image": "../img/GameDealer.png",
+      "github": "https://github.com/KonstantinGolovahin/Game-Dealer",
+      "deploy": "https://konstantingolovahin.github.io/Game-Dealer/",
+      
+    },
+    {  
+        "id": 2,
+        "title": "Weather Dashboard",
+        "image":
+          "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
+        "github": "Fry Cook",
+        "deploy": "A Pineapple Under the Sea",
+        "contribution":"none" 
+      
+    }
+    
+  ]

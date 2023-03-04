@@ -1,0 +1,15 @@
+[
+    {
+      "id": 1,
+      "name": "Konstantin Golovahin",
+      "image":
+        "../img/Avatar.png",
+      "links":{
+        "github":"https://github.com/KonstantinGolovahin",
+        "linkedin":"https://www.linkedin.com/in/konstantin-golovahin-07b977268/",
+        "email":"sobakoved@inbox.lv",
+        "resume":"../data/CV_Golovahins.jpg"
+      }
+    }
+    
+  ]
