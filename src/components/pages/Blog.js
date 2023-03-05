@@ -26,7 +26,7 @@ function Blog() {
     <a href={contacts[0].links.github} class="card-link">GitHub</a>
     <a href={contacts[0].links.linkedin} class="card-link">LinkedIn</a>
     <a href={contacts[0].links.email} class="card-link">Email Me</a>
-    <a href={contacts[0].links.email} download class="card-link">Download Resume</a>
+    
   </div>
 </div>
   );

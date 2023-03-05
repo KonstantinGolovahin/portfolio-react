@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Game Dealer",
-      "image": "../img/GameDealer.png",
+      "image": "/images/GameDealer.png",
       "github": "https://github.com/KonstantinGolovahin/Game-Dealer",
       "deploy": "https://konstantingolovahin.github.io/Game-Dealer/"
       
@@ -11,11 +11,48 @@
         "id": 2,
         "title": "Weather Dashboard",
         "image":
-          "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-        "github": "Fry Cook",
-        "deploy": "A Pineapple Under the Sea",
-        "contribution":"none" 
+          "/images/Weather.png",
+        "github": "https://github.com/KonstantinGolovahin/Weather-Dashboard",
+        "deploy": "https://konstantingolovahin.github.io/Weather-Dashboard/"
+              
+    },
+    {  
+        "id": 3,
+        "title": "README-Generator",
+        "image":
+        "/images/README.png",
+        "github": "https://github.com/KonstantinGolovahin/README-Generator",
+        "deploy": "https://github.com/KonstantinGolovahin/README-Generator"
+              
+    },
+    {  
+        "id": 4,
+        "title": "Planner App",
+        "image":
+          "/images/Planner.png",
+        "github": "https://github.com/KonstantinGolovahin/Planner-App",
+        "deploy": "https://konstantingolovahin.github.io/Planner-App/"
+        
       
-    }
+    },
+    {  
+      "id": 5,
+      "title": "Quiz",
+      "image":
+        "/images/Quiz.png",
+      "github": "https://github.com/KonstantinGolovahin/Quiz-game",
+      "deploy": "https://konstantingolovahin.github.io/Quiz-game/index.html"
+      
+    
+  },
+  {  
+    "id": 6,
+    "title": "Password Generator",
+    "image":
+      "/images/Password.png",
+    "github": "https://github.com/KonstantinGolovahin/Password-Generator-challenge",
+    "deploy": "https://konstantingolovahin.github.io/Password-Generator-challenge/"
+      
+}
     
   ]

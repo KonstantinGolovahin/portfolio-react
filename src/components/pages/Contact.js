@@ -2,12 +2,11 @@ import React from 'react';
 import contacts from '../../data/Personal';
 
 // idea from https://scrimba.com/articles/react-list-array-with-map-function/    
-const Headings = () => {
-  const headings = contacts[0].skills.languages.map((hero, index)=>
-    <li className="list-group-item" key={index}>{hero}</li>)
-  return <header>{headings}</header>
+const Skills = () => {
+  const skills = contacts[0].skills.languages.map((skill, index)=>
+    <li className="list-group-item" key={index}>{skill}</li>)
+  return <header>{skills}</header>
 }
-
 
 function Contact(props) {
   return (
@@ -19,7 +18,7 @@ function Contact(props) {
         <p className="card-text">Please see below key skills </p>
       </div>
       <ul className="list-group list-group-flush">
-        {Headings()}
+        {Skills()}
       </ul>
       <div className="card-body">
         <a href={contacts[0].links.github} class="card-link">GitHub</a>
