@@ -48,14 +48,16 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <NavLink
-          to="gallery/project"
+          to="contactform"
+          end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Learn
+          ContactForm
         </NavLink>
       </li>
+      
     </ul>
   );
 }
