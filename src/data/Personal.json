@@ -2,13 +2,16 @@
     {
       "id": 1,
       "name": "Konstantin Golovahin",
-      "image":
-        "../img/Avatar.png",
+      "image":"/images/Avatar.png",
       "links":{
         "github":"https://github.com/KonstantinGolovahin",
         "linkedin":"https://www.linkedin.com/in/konstantin-golovahin-07b977268/",
         "email":"sobakoved@inbox.lv",
-        "resume":"../data/CV_Golovahins.jpg"
+        "resume":"/images/CV_K_Golovahins.pdf"
+      },
+      "skills":{
+        "languages":["HTML","CSS","Javascript","VBA","PL/SQL","C#"]
+        
       }
     }
     
