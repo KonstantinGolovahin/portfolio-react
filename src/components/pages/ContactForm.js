@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import contacts from '../../data/Personal';
 
 // mailto idea from https://stackoverflow.com/questions/63909032/how-to-launch-and-open-email-client-reactjs
-//<a href="mailto:email@example.com?subject='Hello from Abstract!'&body='Just popped in to say hello'">Click to Send an Email</a>
 
 function ContactForm() {
     // Setting the component's initial state
@@ -12,7 +11,7 @@ function ContactForm() {
       // Getting the value and name of the input which triggered the change
       const name = event.target.name;
       const value = event.target.value;
-      // setFormData({ subject: value },{ message: value });
+
       if (name === "subject") {
        
         setFormData({ subject: value, message: formData.message });
@@ -34,7 +33,7 @@ function ContactForm() {
   const messageSubject=formData.subject;
   const messageBody=formData.message;
   
-    
+    // open default mail app
   window.open('mailto:'+messageEmail+'?subject='+messageSubject+'&body='+messageBody)
 
       setFormData({

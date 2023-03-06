@@ -3,6 +3,8 @@
       "id": 1,
       "name": "Konstantin Golovahin",
       "image":"/images/Avatar.png",
+      "statement":"This is required brand statement",
+      "portfolio": "Message to declare that thi is a portfolio",
       "links":{
         "github":"https://github.com/KonstantinGolovahin",
         "linkedin":"https://www.linkedin.com/in/konstantin-golovahin-07b977268/",
