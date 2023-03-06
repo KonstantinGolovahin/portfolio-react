@@ -24,7 +24,7 @@ function ContactForm() {
     const handleFormSubmit = event => {
       // Preventing the default behavior of the form submit (which is to refresh the page)
       event.preventDefault();
-    
+    // avoid empty message
   if(formData.message==="" || formData.subject==="" ) {
     alert(`Please fill all fields!`);
   }
@@ -42,7 +42,7 @@ function ContactForm() {
              });
     };
   
-    // Notice how each input has a `value`, `name`, and `onChange` prop
+    // generate form
     return (
       <div>
         <p>

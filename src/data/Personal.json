@@ -1,10 +1,10 @@
 [
     {
       "id": 1,
-      "name": "Konstantin Golovahin",
+      "name": "Hi, My name is Konstantin",
       "image":"/images/Avatar.png",
-      "statement":"This is required brand statement",
-      "portfolio": "Message to declare that thi is a portfolio",
+      "statement":"Welcome to my portfolio page",
+      "portfolio": "This website contains some information about me and my skills. Also, it contains a list of completed projects and challenges done in a frontend development  demonstrates my progress in frontend development bootcamp for just three months. Some of the sites were done by me  only, some completed by a team of students. At the moment i just started learning frontend and believe there is a progress.",
       "links":{
         "github":"https://github.com/KonstantinGolovahin",
         "linkedin":"https://www.linkedin.com/in/konstantin-golovahin-07b977268/",
@@ -12,7 +12,7 @@
         "resume":"/images/CV_K_Golovahins.pdf"
       },
       "skills":{
-        "languages":["HTML","CSS","Javascript","VBA","PL/SQL","C#"]
+        "languages":["HTML - Less than a year experience","CSS- Less than a year experience","Javascript- Less than a year experience","VBA - 4 years experience","PL/SQL- 4 years experience","C#, WPF - 2 years experience"]
         
       }
     }
