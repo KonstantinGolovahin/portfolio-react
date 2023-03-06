@@ -25,16 +25,7 @@ function NavTabs() {
           Gallery
         </NavLink>
       </li>
-      <li className="nav-item">
-        <NavLink
-          to="blog"
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          Blog
-        </NavLink>
-      </li>
+          
       <li className="nav-item">
         <NavLink
           to="contact"
@@ -43,18 +34,7 @@ function NavTabs() {
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-          Contact
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink
-          to="contactform"
-          end
-          className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
-          }
-        >
-          ContactForm
+          Contact me!
         </NavLink>
       </li>
       

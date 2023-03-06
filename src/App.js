@@ -1,12 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import NavTabs from './components/Header';
 import Home from './components/pages/Home';
 import Gallery from './components/pages/Gallery';
-import Blog from './components/pages/Blog';
 import Contact from './components/pages/Contact';
-import ContactForm from './components/pages/ContactForm';
 
 
 function App() {
@@ -20,10 +17,7 @@ function App() {
           {/* Define a default route that will render the Home component */}
           <Route path="/" element={<Home />} />
           <Route path="gallery" element={<Gallery />} />
-          <Route path="blog" element={<Blog />} />
-          {/* Define a route that will have descendant routes */}
           <Route path="contact" element={<Contact />} />
-          <Route path="contactform" element={<ContactForm />} />
         </Routes>
       </div>
     </Router>

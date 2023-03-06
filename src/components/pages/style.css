@@ -1,46 +1,48 @@
-.card{
+.card {
     background-color: lightgray;
-    
-    }
 
-   li{
+}
+
+li {
     background-color: grey;
     color: black;
     font-size: large;
     text-align: center;
-    
-   }
 
-   h5,h3,h1{
+}
+
+h5,
+h3,
+h1 {
     text-align: center;
     font-size: larger;
-   }
+}
 
-   footer{
-    
+footer {
+
     text-align: center;
-   }
+}
 
-   .list-group-item{
+.list-group-item {
     background-color: lightgrey;
     border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-   }
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
 
-   /* input form */
+/* input form */
 
-   .input{
+.input {
     border-left: 1px solid black;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-   }
+}
 
-   .buttonInput {
+.buttonInput {
     border-left: 1px solid black;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
@@ -48,13 +50,11 @@
     border-bottom-left-radius: 5px;
     background-color: #06aed5;
     color: white;
-   }
+}
 
-   .form {
+.form {
     background-color: bisque;
     align-content: center;
     align-items: center;
     text-align: center;
-   }
-
-  
+}
