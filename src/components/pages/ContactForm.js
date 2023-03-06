@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import contacts from '../../data/Personal';
+import "./style.css";
 
 // mailto idea from https://stackoverflow.com/questions/63909032/how-to-launch-and-open-email-client-reactjs
 
@@ -45,11 +46,15 @@ function ContactForm() {
     // generate form
     return (
       <div>
-        <p>
-          Please enter a message and press "Generate Email" button 
-        </p>
+        <h3>
+          Please enter a message and press "Generate Email" button to send me an email from your default mailing agent
+        </h3>
+        <h5>
+          Alternatively send email without a form to: {contacts[0].links.email}
+        </h5>
         <form className="form">
         <input
+            className="input" 
             value={formData.subject}
             name="subject"
             type="text"
@@ -57,6 +62,7 @@ function ContactForm() {
             onChange={handleInputChange}
           />
           <input
+          className="input" 
             value={formData.message}
             name="message"
             type="text"
@@ -64,7 +70,7 @@ function ContactForm() {
             onChange={handleInputChange}
           />
         
-          <button onClick={handleFormSubmit}>Generate Email</button>
+          <button className="buttonInput"  onClick={handleFormSubmit}>Generate Email</button>
         </form>
       </div>
     );
