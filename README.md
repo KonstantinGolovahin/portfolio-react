@@ -14,7 +14,7 @@ https://github.com/KonstantinGolovahin/portfolio-react
 
 ## Usage
 
-Used to provide some data about me and familiarise anyone with mine progress
+Used to provide some data about me and familiarise anyone with my progress
 
 ## Credits:
 
