@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.4010a449.css",
-    "main.js": "/portfolio-react/static/js/main.8adefd12.js",
+    "main.css": "/portfolio-react/static/css/main.ef9577af.css",
+    "main.js": "/portfolio-react/static/js/main.3a183a46.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio-react/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/portfolio-react/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio-react/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -10,11 +10,11 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio-react/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio-react/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/portfolio-react/index.html",
-    "main.4010a449.css.map": "/portfolio-react/static/css/main.4010a449.css.map",
-    "main.8adefd12.js.map": "/portfolio-react/static/js/main.8adefd12.js.map"
+    "main.ef9577af.css.map": "/portfolio-react/static/css/main.ef9577af.css.map",
+    "main.3a183a46.js.map": "/portfolio-react/static/js/main.3a183a46.js.map"
   },
   "entrypoints": [
-    "static/css/main.4010a449.css",
-    "static/js/main.8adefd12.js"
+    "static/css/main.ef9577af.css",
+    "static/js/main.3a183a46.js"
   ]
 }
