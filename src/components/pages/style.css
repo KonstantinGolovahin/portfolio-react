@@ -13,13 +13,13 @@ li {
 
 h5,
 h3,
-h1 {
+h1,
+p {
     text-align: center;
     font-size: larger;
 }
 
 footer {
-
     text-align: center;
 }
 
@@ -57,4 +57,9 @@ footer {
     align-content: center;
     align-items: center;
     text-align: center;
+}
+
+/* nav bar */
+.nav {
+    background-color: bisque;
 }

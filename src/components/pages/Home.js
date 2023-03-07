@@ -21,7 +21,8 @@ function Home() {
       backgroundImage: `url(${process.env.PUBLIC_URL + '/images/bg_home.jpeg'})`,
       backgroundPosition: 'center',
       backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat'
+      backgroundRepeat: 'no-repeat',
+      
     }}  >
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
@@ -59,11 +60,11 @@ function Home() {
             ><i ><BsLinkedin /></i>LinkedIn</a>
             <a
               className="btn btn-link btn-floating btn-lg  m-1"
-              href={contacts[0].links.resume}
+              href={process.env.PUBLIC_URL +contacts[0].links.resume}
               role="button"
               data-mdb-ripple-color="dark"
               download
-            ><i ><BsDownload /></i>Download resume</a>
+            ><i ><BsDownload /></i> Download resume</a>
           </section>
         </div>
       </footer>
